@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:powderblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container
+{
+    max-width: 1000px;
+    background-color:#343A40;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image
+{
+    width: 100px;
+    border: 3px solid;
+    border-radius: 50%;
+    float: left;
+    color: #168EF0;
+}
+.header
+{
+    color: white;
+     float: left; 
+     padding-left: 30px; 
+     padding-top: 23px ; 
+}
+#CS
+{
+    color: #168EF0;
+}
+.header-info
+{
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+}
+.header-info p a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header-info a:hover
+{
+    color:#168EF0;
+}
+.div-clear
+{
+    clear: both;
+}
+hr
+{
+    border: 4px solid #B2DEBD;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/* Main */
+
+/* Personal Information */
+.left-div
+{
+    color: whitesmoke;
+    float: left;
+    width: 30%;
+}
+.right-div
+{
+    float: left;
+    width: 70%;
+    color: whitesmoke;
+}
+.common-hr
+{
+    border: 1px solid #B2DEBD;
+}
+.right-div h3:hover
+{
+    color: #168EF0;
+}
+
+/* Projects */
+.work-exp-java 
+{
+    background-color:  #168EF0;
+    width: 10%;
+    height: 25px;
+    text-align: center;
+    padding: 2px 3px;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.work-exp-java:hover
+{
+    background-color:#343A40;
+}
+.work-exp-java a
+{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.work-exp-java:hover
+{
+    cursor: pointer;
+}
+.work-exp-java a:hover
+{
+    color: black;
+}
+.work-exp-data
+{
+    background-color:  #168EF0;
+    width: 20%;
+    height: 25px;
+    text-align: center;
+    padding: 2px 3px;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.work-exp-data:hover
+{
+    background-color:#343A40;
+}
+.work-exp-data a
+{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.work-exp-data:hover
+{
+    cursor: pointer;
+}
+.work-exp-data a:hover
+{
+    color: black;
+}
+.work-exp-HTMLCSS 
+{
+    background-color:  #168EF0;
+    width: 26%;
+    height: 25px;
+    text-align: center;
+    padding: 2px 3px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.work-exp-HTMLCSS:hover
+{
+    background-color:#343A40;
+}
+.work-exp-HTMLCSS a
+{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.work-exp-HTMLCSS a:hover
+{
+    color: black;
+}
+.work-exp-HTMLCSS:hover
+{
+    cursor: pointer;
+}
+#sss
+{
+    float: center;
+    background-color: #343A40;
+}
+
+/* Education */
+
+.edu
+{
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ins
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#iin
+{
+    font-size: 17px;
+}
+.inss
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+.foot
+{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #168EF0;
+}
+#foot-id
+{
+    padding-left: 50px;
+    box-sizing: border-box;
+}
